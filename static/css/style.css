@@ -37,7 +37,7 @@ hr {
     left: 188px;
     width: 140px;
     height: 106px;
-    background: transparent url('img/pwc-logo.png') 0% 0% no-repeat padding-box;
+    background: transparent url('static/img/pwc-logo.png') 0% 0% no-repeat padding-box;
     opacity: 1;
 }
 

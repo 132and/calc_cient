@@ -7,19 +7,21 @@ body {
     overflow-y: hidden;
 }
 
-hr {
-    position: center;
-    height: 1px;
-    width: 60%;
-    opacity: 10 10;
-    color: #000000;
-}
-
 #body__main {
     height: max-content;
     width: 100%;
     background-color: #F2F2F2;
     display: flex;
+}
+
+#body__main__comandpanel hr {
+    position: relative;
+    border-bottom: 1px solid #000000;
+    border-radius: 20px 20px 20px 20px;
+    top: 80px;
+    left: -20px;
+    height: 1px;
+    width: 60%;
 }
 
 #body__main__comandpanel {
@@ -32,18 +34,18 @@ hr {
     opacity: 1;
 }
 
-#body__main__comandpanel__logo {
+#body__main__comandpanel__logo img {
+    position: relative;
     top: 60px;
-    left: 188px;
+    left: 158px;
     width: 140px;
     height: 106px;
-    background: transparent url('static/img/pwc-logo.png') 0% 0% no-repeat padding-box;
-    opacity: 1;
 }
 
 #body__main__comandpanel__title {
-    top: 188px;
-    left: 50px;
+    position: relative;
+    top: 80px;
+    left: -20px;
     width: 485px;
     height: 17px;
     text-align: center;
@@ -51,6 +53,29 @@ hr {
     letter-spacing: 0;
     color: #000000;
     opacity: 1;
+}
+
+#body__main__comandpanel__content__num {
+    top: 366px;
+    left: 971px;
+    width: 359px;
+    height: 370px;
+    opacity: 1;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: wrap-reverse;
+}
+
+#body__main__comandpanel__content__num__button {
+    width: 65px;
+    margin-left: 20px;
+    height: 65px;
+    background: #EB8C00 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #body__main__numpanel {
@@ -80,6 +105,16 @@ hr {
     text-align: right;
     color: #000000;
     opacity: 1;
+}
+
+#body__main__numpanel__content__border {
+    border-bottom: 1px solid #000000;
+    position: relative;
+    border-radius: 10px 10px;
+    top: 80px;
+    left: 71px;
+    height: 1px;
+    width: 80%;
 }
 
 .body__main__numpanel__content__visor__num span {
@@ -119,8 +154,8 @@ hr {
     font-family: Helvetica;
 }
 
-#body__main__numpanel__content__num__recentes {
+#body__main__numpanel__content__num__prev {
     height: 460px;
     width: 10px;
-    border-left: solid 0.5px black;
+    border-left: solid 1px black;
 }

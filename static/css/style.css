@@ -8,8 +8,11 @@ body {
 }
 
 hr {
+    position: center;
     height: 1px;
-    width: 100%;
+    width: 60%;
+    opacity: 10 10;
+    color: #000000;
 }
 
 #body__main {
@@ -30,19 +33,18 @@ hr {
 }
 
 #body__main__comandpanel__logo {
-    position: static;
     top: 60px;
     left: 188px;
     width: 140px;
     height: 106px;
-    background: url('img/pwc-logo.png') 0% 0% no-repeat padding-box;
+    background: transparent url('img/pwc-logo.png') 0% 0% no-repeat padding-box;
     opacity: 1;
 }
 
 #body__main__comandpanel__title {
     top: 188px;
-    left: 0px;
-    width: 515px;
+    left: 50px;
+    width: 485px;
     height: 17px;
     text-align: center;
     font: Regular 22px/30px Helvetica Neue LT Pro;

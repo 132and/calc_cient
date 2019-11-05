@@ -6,17 +6,19 @@ body {
     font-family: Helvetica;
     overflow-y: hidden;
 }
-hr{
+
+hr {
     height: 1px;
     width: 100%;
 }
-#body__main{
+
+#body__main {
     height: max-content;
     width: 100%;
     background-color: #F2F2F2;
-    display: flex;
 }
-#body__main__comandpanel{
+
+#body__main__comandpanel {
     /* top: 0px; */
     /* left: 0px; */
     width: 33.3%;
@@ -24,7 +26,29 @@ hr{
     background: #DEDEDE 0% 0% no-repeat padding-box;
     opacity: 1;
 }
-#body__main__numpanel{
+
+#body__main__comandpanel__logo {
+    top: 60px;
+    left: -188px;
+    width: 140px;
+    height: 106px;
+    background: transparent url('img/pwc-logo.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+#body__main__comandpanel__title {
+    top: 188px;
+    left: 0px;
+    width: 515px;
+    height: 17px;
+    text-align: center;
+    font: Regular 22px/30px Helvetica Neue LT Pro;
+    letter-spacing: 0;
+    color: #000000;
+    opacity: 1;
+}
+
+#body__main__numpanel {
     top: 0px;
     left: 515px;
     width: 60%;
@@ -37,32 +61,30 @@ hr{
     align-items: center;
 }
 
-#body__main__numpanel__content__visor{
-    
+#body__main__numpanel__content__visor {
     width: 359px;
-        
     height: 90px;
-        
     opacity: 1;
-        
     display: flex;
-        
     flex-direction: column;
 }
-.body__main__numpanel__content__visor__num{
+
+.body__main__numpanel__content__visor__num {
     width: 326px;
     height: 70px;
     text-align: right;
     color: #000000;
     opacity: 1;
 }
-.body__main__numpanel__content__visor__num span{
+
+.body__main__numpanel__content__visor__num span {
     font: Regular 129px/181px Helvetica Neue LT Pro;
     font-size: 70px;
     letter-spacing: 0;
     opacity: 1;
 }
-#body__main__numpanel__content__num{
+
+#body__main__numpanel__content__num {
     top: 366px;
     left: 971px;
     width: 359px;
@@ -72,7 +94,8 @@ hr{
     flex-wrap: wrap;
     flex-flow: wrap-reverse;
 }
-.body__main__numpanel__content__num__button{
+
+.body__main__numpanel__content__num__button {
     width: 65px;
     margin-left: 20px;
     height: 65px;
@@ -83,19 +106,16 @@ hr{
     justify-content: center;
     align-items: center;
 }
-.body__main__numpanel__content__num__button span{
-    
-color: #FFFFFF;
-    
-opacity: 1;
-    
-font-size: 30px;
-    
-font-family: Helvetica;
+
+.body__main__numpanel__content__num__button span {
+    color: #FFFFFF;
+    opacity: 1;
+    font-size: 30px;
+    font-family: Helvetica;
 }
-#body__main__numpanel__content__num__recentes{
+
+#body__main__numpanel__content__num__recentes {
     height: 460px;
     width: 10px;
     border-left: solid 0.5px black;
-    
 }
